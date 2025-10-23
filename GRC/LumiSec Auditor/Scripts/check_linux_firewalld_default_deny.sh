@@ -1,7 +1,7 @@
 #!/bin/bash
 # SCRIPT_NAME: check_linux_firewalld_default_deny.sh
 # CONTROL_ID: C-411
-#Author : Mostafa Essam (0xMOSTA)
+# Author : Mostafa Essam (0xMOSTA)
 # --- Standard Setup ---
 # Allow Control ID to be passed as an argument (e.g., -c C-411)
 CONTROL_ID="C-UNKNOWN"; while getopts "c:" opt; do case $opt in c) CONTROL_ID="$OPTARG" ;; esac done
